@@ -1,0 +1,1 @@
+class GetApi{  int id;  String title;  bool completed;  GetApi({this.id, this.title,this.completed});  GetApi.fromJson(Map <String,dynamic> json){    id = json['id'];    title = json['title'];    completed = json['completed'];  }}
